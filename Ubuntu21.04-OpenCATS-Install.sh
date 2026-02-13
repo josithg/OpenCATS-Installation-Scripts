@@ -19,7 +19,7 @@ mysql -u root --execute="GRANT ALL PRIVILEGES ON cats_dev.* TO 'cats'@'localhost
 cd /var/www/html
 wget https://github.com/opencats/OpenCATS/releases/download/0.9.6/opencats-0.9.6-full.zip
 unzip opencats-0.9.6-full.zip
-mv /var/www/html/home/travis/build/opencats/OpenCATS/ .
+mv /var/www/html/OpenCATS/ .
 mv OpenCATS opencats
 
 # Install composer
